@@ -154,96 +154,6 @@
 10.  Pequeño repaso a TypeScript
 
 ```
-
-    // Tipo de datos
-
-    let age: number
-    let title: string
-    let isEasy: boolean
-    let user: {name: string, surname: string}
-    let nothing: undefined
-    let nullValue: null
-    let multipleValue: string | number
-    let array: string []
-    let sum: (a:number, b:number) => number
-    let anything: any
-
-    const a: number = 1
-
-    // Funciones
-
-    function minus(a: number, b: number): number {
-        return a-b
-    }
-
-    function toDoSomthing(a: number, b: number): void {
-        console.log(a+b)
-    }
-
-    function defaultParameter(a: number, b: number = 2): void {
-        console.log(a+b)
-    }
-
-    function transform(operation: () => number): number {
-        return operation()
-    }
-
-    // Interface
-
-    interface Run {
-        run(): string
-    }
-
-    // Clase abstracta
-
-    abstract class Animal implements Run {
-        name: string
-        
-        run(): string {
-            return `${this.name} and i can run very fast!}`
-        }
-
-        abstract sayGoodbay(): string
-    }
-
-    // Clase
-    export class Dog extends Animal {
-        name: string = 'I am a Dog'
-
-        sayGoodbay(): string {
-            return `${this.name} goodbay!`
-        }
-    }
-
-    export class Cat extends Animal {
-        name: string = 'I am a Cat'
-
-        sayGoodbay(): string {
-            return `${this.name} and goodbay :(`
-        }
-    }
-    
-    // Genéricos
-    interface Iterable<T> {
-        list: T []
-    }
-
-    abstract class Collection<T> {
-        list: T []
-    }
-
-    class List<T> {
-        list: T []
-    }
-
-    function generic<A, B>(argument: A, f: (a: A)=> B): B {
-        return f(argument)
-    }
-
-```
-
-11. Caso práctico 1
-```
     // tipo de datos
 
     let age: number
@@ -391,10 +301,15 @@
     function generic<A, B>(argument: A, f: (a: A) => B): B {
         return f(argument)
     }
-
 ```
 
-12. Caso práctico 2
+11. Caso práctico 1 (grupal)
+
+    11.2 Crear un fichero llamando `task1.ts` dentro de la carpeta `src`.
+
+    11.3 Seguir las instruciones.
+
+12. Caso práctico 2 (individual)
 
     12.1 Crear un fichero llamando `task2.ts` dentro de la carpeta `src`.
 
