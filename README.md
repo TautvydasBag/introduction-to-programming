@@ -50,7 +50,29 @@
     1.4 Programación imperativa vs declarativa
 
     - Programación imperativa: se centra en "cómo" debemos de crear un algoritmo para lograr un objetivo.
+      ```
+        export function find(value: number, values: number []): number {
+            let item: number | undefined
+
+            for(let i = 0; i <= values.length; i+=1) {
+                if(values[i] === value) {
+                    item = values[i]
+                    break
+                }
+            }
+
+            return item
+        }
+      ```
+
     - Programación declarativa: se centra en "qué" debemos de hacer en un algoritmo para lograr un objetivo.
+    
+        ```
+        export function find2(value: number, values: number []): number {
+            return values.find((item) => item === value)
+        }
+        ```
+
 
 2. ¿Librería o Framework?
 
@@ -303,13 +325,13 @@
     }
 ```
 
-11. Caso práctico 1 (grupal)
+1.  Caso práctico 1 (grupal)
 
     11.2 Crear un fichero llamando `task1.ts` dentro de la carpeta `src`.
 
     11.3 Seguir las instruciones.
 
-12. Caso práctico 2 (individual)
+2.  Caso práctico 2 (individual)
 
     12.1 Crear un fichero llamando `task2.ts` dentro de la carpeta `src`.
 
