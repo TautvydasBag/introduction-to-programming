@@ -86,7 +86,9 @@
 
 4. ¿Qué es JavaScript?
 
-    Es un lenguaje de programación de alto nivel interpretado, debilmente tipado y dinámico.
+    Es un lenguaje de programación de alto nivel interpretado, debilmente tipado y dinámico. Basado en la especificación de ECMAScript.
+
+    ECMAScript es un estánder de [ecma-international](ecma-international) que define como crear un lenguaje de scripting.
 
 5. ¿Qué es TypeScript?
 
