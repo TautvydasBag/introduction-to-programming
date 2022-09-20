@@ -56,7 +56,7 @@
 
     - Una librería es un conjunto de módulos/piezas que solucionan un problema en concreto. Por ejemplo, [MomentJS](https://momentjs.com/) es una librería que permite un mejor manejo de fechas/tiempos en JavaScript.
   
-    - Un framework es un marco de trabajo donde nos indica como tenemos que trabajar con él. Por ejemplo, [Angular](https://angular.io/) es un framework en front donde permite crear aplicaciones web relativamente rápido. Establece un marco de trabajo, es decir, indica como tenemos que desarrollar nuestra aplicación.
+    - Un framework es un marco de trabajo donde nos indica como tenemos que trabajar con él. Por ejemplo, [Angular](https://angular.io/) es un framework de front donde permite crear aplicaciones web relativamente rápido. Establece un marco de trabajo, es decir, indica como tenemos que desarrollar nuestra aplicación.
 
 3. ¿Qué es node?
 
