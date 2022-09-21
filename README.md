@@ -1,4 +1,4 @@
-# introduction a la programación
+# introducción a la programación
 
 
 1. ¿Qué es un lenguaje de programación?
